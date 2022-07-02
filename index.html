@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,51 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Jogo da Velha</title>
 </head>
+
 <body>
-<h1>Ola Mundo !</h1>
+    <h1>Jogo da Velha</h1>
+    <div id="buttosn-container">
+        <button id="2-players">2 Jogadores</button>
+        <button id="ai-players">Jogar com AI</button>
+    </div>
+    <div id="container" class="hide">
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div>
+        <div class="box" id="block-3"></div>
+        <div class="box" id="block-4"></div>
+        <div class="box" id="block-5"></div>
+        <div class="box" id="block-6"></div>
+        <div class="box" id="block-7"></div>
+        <div class="box" id="block-8"></div>
+        <div class="box" id="block-9"></div>
+        <div id="scoreboard-container"></div>
+        <span class="score-box">
+            <span id="x-scoreboard">x</span>:
+            <span id="scoreborad-1">0</span>
+        </span>
+        <span class="score-box">
+            <span id="o-scoreboard"></span>:
+            <span id="scoreborad-2">0</span>
+        </span>
+
+
+        <div class="hide">
+            <div class="x">x</div>
+            <div class="o"></div>
+
+        </div>
+        <div id="message" class="hide">
+            <p></p>
+
+        </div>
+
+
+
+    </div>
 
 
 
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
